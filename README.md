@@ -30,6 +30,14 @@
 - Подходит для корпоративного комплаенса
 - Endpoint: `https://api.vsellm.ru/v1`
 
+### [TKBK (tkbk.online)](https://tkbk.online)
+- 18 моделей: Claude, GPT, Gemini, Grok, DeepSeek, GLM — один ключ `cr_…` на все
+- Оплата рублями: картой, ЮMoney или SberPay; pay-per-use, баланс не сгорает
+- OpenAI-совместимый endpoint: `https://api.tkbk.online/v1`, формат Anthropic (Claude Code): `https://api.tkbk.online`
+- Цены в «$ баланса»: $1 баланса = 5,80 ₽; прайс в JSON: https://tkbk.online/pricing.json
+- Ежедневная проверка моделей с открытыми данными: https://tkbk.online/verified
+- Независимый сервис, не связан с разработчиками моделей
+
 ---
 
 ## Подключение (пример на Python)
